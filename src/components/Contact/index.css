@@ -1,0 +1,27 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.main-page-image {
+  width: 50%;
+}
+
+.main-page-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #6d396b;
+}
+
+@media screen and (min-width: 768px) {
+  .main-page-image {
+    width: 30%;
+  }
+
+  .main-page-text {
+    font-size: 42px;
+  }
+}

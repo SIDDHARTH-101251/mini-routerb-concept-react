@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+}
+
+.wave-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.logo-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #12022f;
+  margin-left: 12px;
+}
+
+.link-ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  color: #12022f;
+  text-decoration: none;
+  margin: 0 4px 0 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .link-ul {
+    width: 30%;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+}

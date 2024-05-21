@@ -1,0 +1,17 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.main-page-image {
+  width: 50%;
+}
+
+.main-page-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #6d396b;
+}
